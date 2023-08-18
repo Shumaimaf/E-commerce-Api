@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 
-const { SignUp, Login, allUsers, userbyEmail, getUserById, deleteUser, updateUser } = require('./Controller')
+const { SignUp, Login, allUsers, userbyEmail, getUserById, deleteUser, updateUser } = require('./controller')
 
 router.post('/login', Login)
 router.post('/signup', SignUp)
