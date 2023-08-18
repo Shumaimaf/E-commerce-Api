@@ -10,7 +10,7 @@ app.use(cors())
 
 app.use('/api', require('./api/users/router'))
 app.use('/api', require('./api/products/router'))
-app.use('/api', require('./api/Brands/router'))
+app.use('/api', require('./api/brands/router'))
 app.use('/api', require('./api/category/router'))
 app.use('/api', require('./api/orders/router'))
 
